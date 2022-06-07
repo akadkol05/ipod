@@ -1,0 +1,210 @@
+/* css for body  */
+body {
+	margin: 0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	box-sizing: border-box;
+	background-image: url("./images/bgimg4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  /* ipod css */
+  #ipod-container {
+	margin: 20px auto;
+	height: 540px;
+	border-radius: 10px;
+	background: rgb(201, 102, 212);
+	width: 320px;
+	box-shadow: inset 10px 10px 50px #151313;
+	padding-top: 10px;
+}
+  
+  /* ipod Screen css container*/
+  #ipod-screen-container{
+	margin: 10px;
+	min-height: 50%;
+	background: url("./images/wallpaper.jpg");
+	background-size: cover;
+	border-radius: 5px;
+  }
+  
+  /* ipod Screen css */
+  #ipod-screen {
+	background:#8d8de3;
+	padding: 5px;
+	border-radius: 5px 0 0 5px;
+	width: 60%;
+	height: 265px;
+  }
+  
+  /* ipod Screen list css */
+  #ipod-screen ul {
+	list-style: none;
+	margin-top: 10px;
+	padding: 0;
+  }
+  
+  /* ipod Screen list css */
+  #ipod-screen ul li {
+	padding: 5px;
+	color: white;
+  }
+  
+  /* MenuWheel css */
+  #menu-wheel{
+	background: rgb(183, 208, 248);
+	margin: 0 auto;
+	margin-top: 35px;
+	border-radius: 50%; 
+	width: 190px;
+	height: 190px;
+	position: relative;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0 , 0.1), 0 8px 10px -6px rgba(0, 0, 0 , 0.1);
+  }
+  
+  /* select middle btn */
+  #submit-btn{
+	background-color: rgb(3, 0, 0);
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	justify-content: center;
+	text-align: center;
+	color:white;
+  }
+  
+  /* Active Menu color */
+  .activeMenu{
+	background: rgb(5, 179, 242);
+	color: white;
+  }
+  
+  
+  
+  /* Wheel Menu Buttons css*/
+  #wheel-container{
+	position: relative;
+  }
+  
+  /* menu css */
+  #menu{
+	position: absolute;
+	left: 50%;
+	top: 7%;
+	transform: translateX(-50%);
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(8, 5, 5);
+	cursor: default;
+	user-select: none;
+  }
+  
+  /* left icon  */
+  #left-play-back{
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	font-size: 20px;
+	transform: translateY(-50%) rotate(180deg);
+  }
+  
+  /* right icon  */
+  #right-play-back{
+	position: absolute;
+	top: 50%;
+	right: 7%;
+	font-size: 20px;
+	transform: translateY(-50%);
+  }
+  
+  /* play pause icon  */
+  #play-pause{
+	position: absolute;
+	bottom: 7%;
+	left: 50%;
+	font-size: 20px;
+	transform: translateX(-50%);
+  }
+  
+  /* title   */
+  .container-title{
+	text-align: center;
+	background: rgb(13, 149, 212);
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+  }
+
+  /* Component css  */
+  .screen-common{
+	background-size:contain;
+	margin: 20px;
+	border-radius:20px;
+	min-height: 50%;
+	border-radius: 5px;
+  }
+
+  /* title css */
+  .h2-name-tag{
+	text-align: center;
+	background-color: #8d8de3;
+   }
+
+  /* Coverflow image */
+  #coverflow-div{
+	background: url("./images/coverflow.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+
+  /* Game image */
+  #game-div{
+	background: url("./images/car-racing-game.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+
+  /* Settings image */
+  #setting-div{
+	background: url("./images/setting.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  /* Albums image */
+  #albums-div{
+	background: url("./images/Albums.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+  }
+  
+  /* Artists image */
+  #Artists-div{
+	background: url("./images/Artists.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  /* Song image */
+  #song-div{
+	background: url("./images/songp.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+ 
